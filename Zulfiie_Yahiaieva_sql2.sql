@@ -1,11 +1,11 @@
---создание таблицы
+
 create table employees (
 	id serial primary key,
 	employee_name varchar(50) not null
 );
---отображение содержимого таблицы
+
 select * from employees;
---наполнение таблицы 70 строками
+
 insert into employees (id, employee_name)
 values (default, 'Belle');
 insert into employees (id, employee_name)
@@ -149,13 +149,13 @@ values (default, 'Rustam');
 insert into employees (id, employee_name)
 values (default, 'Azazel');
 
---создание таблицы salary
+
 create table salary(
 	id serial primary key,
 	monthly_salary int not null);
---отображение созданой таблицы
+
 select * from salary;
---наполнение таблицы строками
+
 insert into salary (id, monthly_salary)
 values (default, 1000);
 insert into salary (id, monthly_salary)
@@ -188,16 +188,16 @@ insert into salary (id, monthly_salary)
 values (default, 2400);
 insert into salary (id, monthly_salary)
 values (default, 2500);
---отображение созданой таблицы
+
 select * from salary;
 
---создание таблицы employee_salary
+
 create table employee_salary(
 	id serial primary key,
 	employee_id int not null,
 	salary_id int not null
 	);
---наполнение таблицы строками
+
 insert into employee_salary (id, employee_id, salary_id)
 values (default, 1, 16);
 insert into employee_salary (id, employee_id, salary_id)
@@ -278,19 +278,19 @@ insert into employee_salary (id, employee_id, salary_id)
 values (default, 71, 9);
 insert into employee_salary (id, employee_id, salary_id)
 values (default, 72, 3);
---отображение всего содержимого таблицы
+
 select * from employee_salary;
 
---создание таблицы roles
+
 create table roles(
 	id serial primary key,
 	role_name int not null unique
 	);
---изменение столбца role_name с int на varchar(30)
+
 alter table roles
 alter column role_name type varchar(30)
 using role_name::varchar(30);
---наполнение таблицы roles строками
+
 insert into roles (id, role_name)
 values (default, 'Junior Python developer');
 insert into roles (id, role_name)
@@ -331,10 +331,10 @@ insert into roles (id, role_name)
 values (default, 'Middle Automation QA engineer');
 insert into roles (id, role_name)
 values (default, 'Senior Automation QA engineer');
---отображение всего содержимого таблицы
+
 select * from roles;
 
---создание таблицы roles_employee
+
 create table roles_employee(
 	id serial primary key,
 	employee_id int not null unique,
@@ -344,7 +344,7 @@ create table roles_employee(
 	foreign key (role_id)
 	references roles (id)
 );
---наполнение таблицы roles_employee строками
+
 insert into roles_employee (id, employee_id, role_id)
 values (default, 2, 17);
 insert into roles_employee (id, employee_id, role_id)
@@ -425,6 +425,6 @@ insert into roles_employee (id, employee_id, role_id)
 values (default, 33, 5);
 insert into roles_employee (id, employee_id, role_id)
 values (default, 31, 9);
---оторбражение данных всей таблицы
+
 select * from roles_employee;
 
