@@ -1,194 +1,99 @@
-
 create table employees (
 	id serial primary key,
 	employee_name varchar(50) not null
 );
-
+insert into employees (employee_name)
+values ('Belle'),
+	 	('Melani'),
+		('Luisa'),
+ 		('Elizabeth'),
+ 		('Violette'),
+ 		('Nathalia'),
+ 		('Yasmin'),
+		('Elina'),
+ 		('Queen'),
+		('Ayleen'),
+ 		('Jillian'),
+		('Brittany'),
+		('Paola'),
+		('Carolyn'),
+ 		('Loretta'),
+ 		('Drew'),
+ 		('Dalary'),
+ 		('Nataly'),
+ 		('Paloma'),
+ 		('Veda'),
+ 		('Raya'),
+ 		('Whitney'),
+		('Flora'),
+		('Samira'),
+		('Zoya'),
+ 		('Elza'),
+ 		('Deborah'),
+ 		('Ayla'),
+ 		('Valery'),
+		('Robin'),
+		('Ellison'),
+		('Barbara'),
+		('Leanna'),
+		('Denver'),
+		('Violeta'),
+ 		('Frida'),
+ 		('Amaris'),
+ 		('Karter'),
+		('Leo'),
+		('Scout'),
+		('Aliya'),
+		('August'),
+		('Denis'),
+		('Theodor'),
+		('Hunter'),
+ 		('Livia'),
+		('Viena'),
+ 		('Tiffany'),
+ 		('Greta'),
+		('Harry'),
+		('Alex'),
+ 		('Bred'),
+		('Rayan'),
+ 		('Dexter'),
+ 		('Roza'),
+ 		('Ohara'),
+		('Ezra'),
+		('Jolly'),
+ 		('Lara'),
+		('Kevin'),
+		('Karla'),
+		('Lilian'),
+		('Lara'),
+		('Christina'),
+		('Timur'),
+		('Kate'),
+		('Daniel'),
+		('Leyla'),
+		('Gloria'),
+		('Rustam');
 select * from employees;
-
-insert into employees (id, employee_name)
-values (default, 'Belle');
-insert into employees (id, employee_name)
-values (default, 'Melani');
-insert into employees (id, employee_name)
-values (default, 'Luisa');
-insert into employees (id, employee_name)
-values (default, 'Elizabeth');
-insert into employees (id, employee_name)
-values (default, 'Violette');
-insert into employees (id, employee_name)
-values (default, 'Nathalia');
-insert into employees (id, employee_name)
-values (default, 'Yasmin');
-insert into employees (id, employee_name)
-values (default, 'Elina');
-insert into employees (id, employee_name)
-values (default, 'Queen');
-insert into employees (id, employee_name)
-values (default, 'Ayleen');
-insert into employees (id, employee_name)
-values (default, 'Jillian');
-insert into employees (id, employee_name)
-values (default, 'Brittany');
-insert into employees (id, employee_name)
-values (default, 'Paola');
-insert into employees (id, employee_name)
-values (default, 'Carolyn');
-insert into employees (id, employee_name)
-values (default, 'Loretta');
-insert into employees (id, employee_name)
-values (default, 'Drew');
-insert into employees (id, employee_name)
-values (default, 'Dalary');
-insert into employees (id, employee_name)
-values (default, 'Nataly');
-insert into employees (id, employee_name)
-values (default, 'Paloma');
-insert into employees (id, employee_name)
-values (default, 'Veda');
-insert into employees (id, employee_name)
-values (default, 'Raya');
-insert into employees (id, employee_name)
-values (default, 'Whitney');
-insert into employees (id, employee_name)
-values (default, 'Flora');
-insert into employees (id, employee_name)
-values (default, 'Samira');
-insert into employees (id, employee_name)
-values (default, 'Zoya');
-insert into employees (id, employee_name)
-values (default, 'Elza');
-insert into employees (id, employee_name)
-values (default, 'Deborah');
-insert into employees (id, employee_name)
-values (default, 'Ayla');
-insert into employees (id, employee_name)
-values (default, 'Valery');
-insert into employees (id, employee_name)
-values (default, 'Robin');
-insert into employees (id, employee_name)
-values (default, 'Ellison');
-insert into employees (id, employee_name)
-values (default, 'Barbara');
-insert into employees (id, employee_name)
-values (default, 'Leanna');
-insert into employees (id, employee_name)
-values (default, 'Denver');
-insert into employees (id, employee_name)
-values (default, 'Violeta');
-insert into employees (id, employee_name)
-values (default, 'Frida');
-insert into employees (id, employee_name)
-values (default, 'Amaris');
-insert into employees (id, employee_name)
-values (default, 'Karter');
-insert into employees (id, employee_name)
-values (default, 'Leo');
-insert into employees (id, employee_name)
-values (default, 'Scout');
-insert into employees (id, employee_name)
-values (default, 'Aliya');
-insert into employees (id, employee_name)
-values (default, 'August');
-insert into employees (id, employee_name)
-values (default, 'Denis');
-insert into employees (id, employee_name)
-values (default, 'Theodor');
-insert into employees (id, employee_name)
-values (default, 'Hunter');
-insert into employees (id, employee_name)
-values (default, 'Livia');
-insert into employees (id, employee_name)
-values (default, 'Viena');
-insert into employees (id, employee_name)
-values (default, 'Tiffany');
-insert into employees (id, employee_name)
-values (default, 'Greta');
-insert into employees (id, employee_name)
-values (default, 'Harry');
-insert into employees (id, employee_name)
-values (default, 'Alex');
-insert into employees (id, employee_name)
-values (default, 'Bred');
-insert into employees (id, employee_name)
-values (default, 'Rayan');
-insert into employees (id, employee_name)
-values (default, 'Dexter');
-insert into employees (id, employee_name)
-values (default, 'Roza');
-insert into employees (id, employee_name)
-values (default, 'Ohara');
-insert into employees (id, employee_name)
-values (default, 'Ezra');
-insert into employees (id, employee_name)
-values (default, 'Jolly');
-insert into employees (id, employee_name)
-values (default, 'Lara');
-insert into employees (id, employee_name)
-values (default, 'Kevin');
-insert into employees (id, employee_name)
-values (default, 'Karla');
-insert into employees (id, employee_name)
-values (default, 'Lilian');
-insert into employees (id, employee_name)
-values (default, 'Lara');
-insert into employees (id, employee_name)
-values (default, 'Christina');
-insert into employees (id, employee_name)
-values (default, 'Timur');
-insert into employees (id, employee_name)
-values (default, 'Kate');
-insert into employees (id, employee_name)
-values (default, 'Daniel');
-insert into employees (id, employee_name)
-values (default, 'Leyla');
-insert into employees (id, employee_name)
-values (default, 'Gloria');
-insert into employees (id, employee_name)
-values (default, 'Rustam');
-insert into employees (id, employee_name)
-values (default, 'Azazel');
-
 
 create table salary(
 	id serial primary key,
 	monthly_salary int not null);
-
-select * from salary;
-
-insert into salary (id, monthly_salary)
-values (default, 1000);
-insert into salary (id, monthly_salary)
-values (default, 1100);
-insert into salary (id, monthly_salary)
-values (default, 1200);
-insert into salary (id, monthly_salary)
-values (default, 1300);
-insert into salary (id, monthly_salary)
-values (default, 1400);
-insert into salary (id, monthly_salary)
-values (default, 1500);
-insert into salary (id, monthly_salary)
-values (default, 1600);
-insert into salary (id, monthly_salary)
-values (default, 1700);
-insert into salary (id, monthly_salary)
-values (default, 1800);
-insert into salary (id, monthly_salary)
-values (default, 1900);
-insert into salary (id, monthly_salary)
-values (default, 2000);
-insert into salary (id, monthly_salary)
-values (default, 2100);
-insert into salary (id, monthly_salary)
-values (default, 2200);
-insert into salary (id, monthly_salary)
-values (default, 2300);
-insert into salary (id, monthly_salary)
-values (default, 2400);
-insert into salary (id, monthly_salary)
-values (default, 2500);
-
+insert into salary(monthly_salary)
+values (1000),
+ 		(1100),
+		(1200),
+		(1300),
+		(1400),
+		(1500),
+		(1600),
+		(1700),
+ 		(1800),
+		(1900),
+		(2000),
+		(2100),
+		(2200),
+		(2300),
+		(2400);		
 select * from salary;
 
 
@@ -197,88 +102,47 @@ create table employee_salary(
 	employee_id int not null,
 	salary_id int not null
 	);
-
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 1, 16);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 2, 15);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 3, 5);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 4, 18);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 5, 9);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 6, 11);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 7, 20);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 8, 16);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 9, 15);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 10, 5);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 11, 18);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 12, 9);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 13, 11);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 14, 20);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 15, 7);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 16, 2);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 17, 9);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 18, 6);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 19, 11);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 20, 11);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 21, 12);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 22, 7);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 23, 15);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 24, 5);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 25, 18);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 26, 9);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 27, 11);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 28, 20);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 29, 5);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 30, 18);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 52, 9);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 53, 11);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 61, 2);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 62, 9);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 67, 3);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 68, 2);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 69, 11);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 70, 2);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 71, 9);
-insert into employee_salary (id, employee_id, salary_id)
-values (default, 72, 3);
-
+insert into employee_salary (employee_id, salary_id)
+values (35, 15),
+		(23, 14),
+		(46, 5),
+		(4, 15),
+		(8, 9),
+		(16, 11),
+		(15, 14),
+		(28, 12),
+		(17, 15),
+		(10, 5),
+		(14, 8),
+		(12, 9),
+		(33, 11),
+		(24, 13),
+		(15, 7),
+		(16, 2),
+		(7, 9),
+		(8, 6),
+		(19, 11),
+		(20, 11),
+		(31, 12),
+		(25, 7),
+		(57, 15),
+		(51, 5),
+		(46, 8),
+		(32, 9),
+		(41, 11),
+		(3, 6),
+		(29, 5),
+		(1, 15),
+		(79, 9),
+		(75, 11),
+		(73, 2),
+		(88, 9),
+		(92, 3),
+ 		(81, 2),
+		(96, 11),
+		(86, 2),
+		(91, 9),
+		(84, 3);
 select * from employee_salary;
 
 
@@ -290,48 +154,27 @@ create table roles(
 alter table roles
 alter column role_name type varchar(30)
 using role_name::varchar(30);
-
-insert into roles (id, role_name)
-values (default, 'Junior Python developer');
-insert into roles (id, role_name)
-values (default, 'Middle Python developer');
-insert into roles (id, role_name)
-values (default, 'Senior Python developer');
-insert into roles (id, role_name)
-values (default, 'Junior Java developer');
-insert into roles (id, role_name)
-values (default, 'Middle Java developer');
-insert into roles (id, role_name)
-values (default, 'Senior Java developer');
-insert into roles (id, role_name)
-values (default, 'Junior JavaScript developer');
-insert into roles (id, role_name)
-values (default, 'Middle JavaScript developer');
-insert into roles (id, role_name)
-values (default, 'Senior JavaScript developer');
-insert into roles (id, role_name)
-values (default, 'Junior Manual QA engineer');
-insert into roles (id, role_name)
-values (default, 'Middle Manual QA engineer');
-insert into roles (id, role_name)
-values (default, 'Senior Manual QA engineer');
-insert into roles (id, role_name)
-values (default, 'Project Manager');
-insert into roles (id, role_name)
-values (default, 'Designer');
-insert into roles (id, role_name)
-values (default, 'HR');
-insert into roles (id, role_name)
-values (default, 'CEO');
-insert into roles (id, role_name)
-values (default, 'Sales manager');
-insert into roles (id, role_name)
-values (default, 'Junior Automation QA engineer');
-insert into roles (id, role_name)
-values (default, 'Middle Automation QA engineer');
-insert into roles (id, role_name)
-values (default, 'Senior Automation QA engineer');
-
+insert into roles (role_name)
+values ('Junior Python developer'),
+		('Middle Python developer'),
+		('Senior Python developer'),
+		('Junior Java developer'),
+		('Middle Java developer'),
+		('Senior Java developer'),
+		('Junior JavaScript developer'),
+		('Middle JavaScript developer'),
+		('Senior JavaScript developer'),
+		('Junior Manual QA engineer'),
+		('Middle Manual QA engineer'),
+		('Senior Manual QA engineer'),
+		('Project Manager'),
+		('Designer'),
+		('HR'),
+		('CEO'),
+		('Sales manager'),
+		('Junior Automation QA engineer'),
+		('Middle Automation QA engineer'),
+		('Senior Automation QA engineer');
 select * from roles;
 
 
@@ -344,87 +187,46 @@ create table roles_employee(
 	foreign key (role_id)
 	references roles (id)
 );
-
-insert into roles_employee (id, employee_id, role_id)
-values (default, 2, 17);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 5, 8);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 1, 4);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 25, 3);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 22, 16);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 18, 11);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 3, 5);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 4, 6);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 7, 19);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 29, 15);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 17, 10);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 32, 4);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 38, 16);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 35, 11);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 6, 1);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 28, 20);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 8, 7);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 27, 9);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 9, 18);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 10, 14);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 26, 2);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 11, 7);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 12, 17);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 13, 8);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 14, 9);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 15, 12);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 40, 13);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 16, 20);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 19, 2);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 39, 19);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 20, 18);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 37, 4);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 36, 12);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 21, 8);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 34, 18);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 23, 14);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 30, 2);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 24, 6);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 33, 5);
-insert into roles_employee (id, employee_id, role_id)
-values (default, 31, 9);
-
+insert into roles_employee (employee_id, role_id)
+values(45, 15),
+		(65, 3),
+		(22, 1),
+		(13, 8),
+		(12, 2),
+		(2, 14),
+		(16, 4),
+		(70, 11),
+		(4, 5),
+		(62, 13),
+		(15, 7),
+		(53, 12),
+		(21, 9),
+		(34, 10),
+		(38, 6),
+		(40, 15),
+		(44, 3),
+		(57, 1),
+		(59, 8),
+		(3, 2),
+		(69, 14),
+		(28, 4),
+		(1, 11),
+		(55, 10),
+		(26, 15),
+		(8, 3),
+		(10, 1),
+		(20, 8),
+		(39, 2),
+		(7, 9),
+		(19, 6),
+		(24, 15),
+		(35, 3),
+		(42, 1),
+		(48, 8),
+		(50, 2),
+		(63, 14),
+		(68, 11),
+		(32, 10),
+		(11, 15);
 select * from roles_employee;
 
