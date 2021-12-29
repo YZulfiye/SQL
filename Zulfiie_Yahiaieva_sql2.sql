@@ -93,22 +93,23 @@ values (1000),
 		(2100),
 		(2200),
 		(2300),
-		(2400);		
+		(2400),
+		(2500);		
 select * from salary;
 
 
 create table employee_salary(
 	id serial primary key,
-	employee_id int not null,
+	employee_id int not null unique,
 	salary_id int not null
 	);
 insert into employee_salary (employee_id, salary_id)
 values (35, 15),
 		(23, 14),
-		(46, 5),
+		(30, 5),
 		(4, 15),
 		(8, 9),
-		(16, 11),
+		(64, 11),
 		(15, 14),
 		(28, 12),
 		(17, 15),
@@ -117,16 +118,16 @@ values (35, 15),
 		(12, 9),
 		(33, 11),
 		(24, 13),
-		(15, 7),
+		(60, 7),
 		(16, 2),
 		(7, 9),
-		(8, 6),
+		(51, 6),
 		(19, 11),
 		(20, 11),
 		(31, 12),
 		(25, 7),
 		(57, 15),
-		(51, 5),
+		(9, 5),
 		(46, 8),
 		(32, 9),
 		(41, 11),
