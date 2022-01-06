@@ -114,7 +114,7 @@ from employees e join roles_employee re on e.id = re.employee_id
 join roles r on re.role_id = r.id
 join employee_salary es on es.employee_id = re.employee_id
 join salary s on s.id = es.salary_id
-where role_name like 'Junior %QA engineer%';
+where role_name like '%JuniorQA%';
 --21. Вывести среднюю зарплату всех Junior специалистов.
 select avg(monthly_salary) as "average salary"
 from roles_employee re join roles r on re.role_id = r.id
